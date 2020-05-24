@@ -2,7 +2,7 @@
 ## Assumptions
 - If the same type of files are used (wikipedia_json, kaggle_csv and ratings_csv), you need to consider the following:
 	- All the original column names for the data files needs to be named the same way the function states.
-	- To clean the data, for example: removing the dollar sign to a number, the Regular expression operations used in the function should match the new data to be applied succesfull.
+	- To clean the data, for example: removing the dollar sign to a number, the regular expression operations used in the function should match the new data to apply succesfull.
 	- All the columns used in the funtion are in the new data.
 	- We are assuming we only need to update the data type for the columns states in the function.
 	- When loading the data to SQL, we are assuming the tables exist already, so we are replacing the tables in case they exist.
