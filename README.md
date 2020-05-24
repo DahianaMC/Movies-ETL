@@ -1,5 +1,5 @@
 # Movies-ETL
-## Name of the function created to take the 3 data files: Ext_Trans(wiki_json, kaggle_csv, ratings_csv)
+-  Name of the function created to take the 3 data files: Ext_Trans(wiki_json, kaggle_csv, ratings_csv)
 ## Assumptions
 - If the same type of files are used (wikipedia_json, kaggle_csv and ratings_csv), you need to consider the following:
 	- All the original column names for the data files needs to be named the same way the function states.
